@@ -1,0 +1,53 @@
+{
+    "name": "Meanjin",
+
+    "backgroundColor": {
+        "day": [236, 220, 195],
+        "night": [40, 51, 66]
+    },
+
+    "peepColor": {
+        "day": [75, 89, 98],
+        "night": [226, 188, 224]
+    },
+
+    "waterColor": {
+        "internal": {
+            "day": [208, 232, 236],
+            "night": [106, 124, 144]
+        },
+
+        "outline": {
+            "day": [190, 209, 211],
+            "night": [57, 70, 85]
+        },
+
+        "outlineWidth": 10.0,
+        "previewOutlineWidth": 30.0
+    },
+
+    "stationColor": {
+        "internal": {
+            "day": [246, 245, 229],
+            "night": [226, 201, 224]
+        },
+
+        "outline": {
+            "day": [75, 89, 98],
+            "night": [32, 33, 32]
+        },
+
+        "outlineWidth": 5.0
+    },
+
+    "lineColors": [
+        {"day": [165, 67, 153]},
+        {"day": [0, 70, 127]},
+        {"day": [0, 135, 82]},
+        {"day": [255, 196, 47]},
+        {"day": [227, 24, 55]},
+        {"day": [24, 173, 199]},
+        {"day": [240, 120, 46]},
+        {"day": [130, 194, 58]}
+    ]
+}
