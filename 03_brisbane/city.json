@@ -1,0 +1,645 @@
+{
+
+    "id": "brisbane_daisy",
+    "customName": "Brisbane",
+    "customDescription": "Transport passengers around Brisbane through a rail network of high-capacity but slow trains.",
+    "lineCount": 8,
+    "customLocalName": "Meanjin",
+    "crossingStyle": "Bridge",
+    "audioLoadoutID": "montreal",
+    "debugShowCityAreas": false,
+
+
+    "theme": "Meanjin",
+
+    "obstacles": [
+        {
+            "note": "background",
+
+            "points": [
+                [-4166.7, -3029.3],
+                [3562.4, -3029.3],
+                [3562.4, 3534.4],
+                [-4166.7, 3534.4]
+            ],
+
+            "visual": true,
+            "inverted": true,
+            "decoration": true,
+            "inPreview": false,
+            "cornerRadius": -1
+
+        },
+
+        {
+            "note": "Brisbane River",
+
+            "points": [
+                [-373.8, 2529.9],
+                [5.7, 2074.3],
+                [952.7, 1849],
+                [1052.5, 1657.9],
+                [824.3, 1351.3],
+                [891.3, 1318.5],
+                [955.5, 1442.5],
+                [995.5, 1416.9],
+                [918.4, 1048.9],
+                [658.9, 842.1],
+                [574.7, 663.8],
+                [309.5, 535.5],
+                [-201.1, 535.5],
+                [-201.1, 422.8],
+                [-26, 108.9],
+                [-139.5, 28.7],
+                [-243, 224.1],
+                [-392.5, 153.2],
+                [-289.9, -50.3],
+                [-369.4, -93.5],
+                [-492.1, 110.4],
+                [-623.3, 43.4],
+                [-765.9, -229],
+                [-711.7, -355.9],
+                [-413.6, -355.9],
+                [-409.4, -455.8],
+                [-641.8, -481.4],
+                [-634.7, -675.4],
+                [-470.7, -681.1],
+                [-472.1, -742.4],
+                [-660.4, -742.4],
+                [-917.1, -571.3],
+                [-1048.3, -689.7],
+                [-918.5, -910.7],
+                [-878.6, -1120.4],
+                [-938.5, -1133.2],
+                [-1099.7, -959.2],
+                [-1433.4, -977.8],
+                [-1463.3, -1193.1],
+                [-1741.3, -1293.4],
+                [-1696.9, -2035.7],
+                [-2165.9, -2059.8],
+                [-2480.2, -1176.7],
+                [-3951.9, -1394.3],
+                [-3937.2, -1465.2],
+                [-2530, -1247.8],
+                [-2215.2, -2128.4],
+                [-1616.2, -2098.1],
+                [-1664, -1335.6],
+                [-1402, -1259.7],
+                [-1365.2, -1039.2],
+                [-1128.6, -1027.9],
+                [-974.6, -1198.6],
+                [-802.8, -1183.2],
+                [-856.9, -886.2],
+                [-962.8, -708.5],
+                [-914.3, -656],
+                [-685.5, -805],
+                [-412.2, -800.9],
+                [-410.1, -637.6],
+                [-584.1, -629.7],
+                [-583.4, -528.5],
+                [-352.3, -504.3],
+                [-360.9, -296],
+                [-666.1, -306],
+                [-701.7, -239],
+                [-584.8, -6.5],
+                [-510.6, 22],
+                [-391, -163.6],
+                [-208.6, -66.9],
+                [-319.5, 136.1],
+                [-272.4, 153.2],
+                [-153.7, -49.4],
+                [47, 99],
+                [-138.4, 418.5],
+                [-138.4, 484.1],
+                [320.9, 484.1],
+                [637.5, 625.3],
+                [728.8, 822.1],
+                [985.5, 1013.2],
+                [1121, 1299.9],
+                [1257.9, 1368.4],
+                [1337.9, 1174.4],
+                [1286.4, 1137.3],
+                [1417.6, 779.3],
+                [1582.7, 725.6],
+                [1733.9, 368.6],
+                [2248.3, 368.6],
+                [2248.3, 602.5],
+                [2302.7, 608.6],
+                [2337, 396.8],
+                [2575, 421],
+                [2704.1, -36.5],
+                [3334.5, -641.2],
+                [3354.5, 2516.5]
+            ],
+
+            "visual": true,
+            "inverted": false,
+            "decoration": false,
+            "inPreview": true,
+            "cornerRadius": 20
+        }
+        
+
+    ],
+
+    "origin": [0, 0],
+
+    "zoom": {
+        "start": 1.2,
+        "end": 0.40,
+
+        "delay": 1,
+        "duration": 100,
+
+        "earlyZoom": 0.6,
+        "lateZoom": 0.4
+
+    },
+
+    "startArea": {
+        "rightBottom": [0, -0.3],
+        "leftTop": [-0.5, 0.2]
+    },
+
+    "cityAreas": [
+        {
+            "note": "City Centre",
+
+            "paths": [
+                {
+                    "points": [
+                        [-962.7, 689.5],
+                        [-1168.1, 230.3],
+                        [-767.3, -107.7],
+                        [-651.8, 83.4],
+                        [-488.3, 158.7],
+                        [-434.8, 185.8],
+                        [-239.1, 266.2],
+                        [-120.8, 84.3],
+                        [-70.4, 125.1],
+                        [-241, 432.8],
+                        [-246.7, 568.3],
+                        [-81.3, 575.4],
+                        [-75.6, 809.3],
+                        [-744.5, 892]
+                    ]
+                },
+                
+                {
+                    "points": [
+                        [-520.6, -17.9],
+                        [-566.2, -32.1],
+                        [-660.3, -229],
+                        [-651.8, -270.3],
+                        [-332.3, -268.9],
+                        [-325.7, -504.6],
+                        [122.7, -363],
+                        [62.8, 62],
+                        [-134.1, -93.5],
+                        [-399.3, -203.3]
+                    ]
+                }
+            ],
+
+            "density": 1.5,
+
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 0.4, "maximum": -1, "activeDay": -1},
+                {"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": -1},
+                {"type": "SQUARE", "weight": 0.6, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.2, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true}
+            ]
+        },
+
+        {
+            "note": "Bulimba-Morningside",
+
+            "paths": [
+                {
+                    "points": [
+                        [-84.7, 452.4],
+                        [-86.7, 399],
+                        [94.8, 81.3],
+                        [153.3, -384.6],
+                        [768.5, -392.7],
+                        [736.2, 617.8],
+                        [336.8, 438.3]
+
+                    ]
+                }
+            ],
+
+            "density": 1.3,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.2, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true},
+                {"type": "SQUARE", "weight": 0.6, "maximum": -1, "activeDay": -1}
+            ]
+        },
+
+        {
+            "note": "Wynnum",
+
+            "paths": [
+                {
+                    "points": [
+                        [779.9, 708.2],
+                        [798.7, -402.8],
+                        [2626.1, -326.1],
+                        [2497, 323.4],
+                        [1658, 287],
+                        [1512.7, 662.2],
+                        [1363.5, 722.7],
+                        [1207.7, 1195.6]
+                    ]
+                }
+            ],
+
+            "density": 1.0,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "TRIANGLE", "weight": 0.5, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.2, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true}             
+            ]
+        },
+
+        {
+            "note": "Moorooka",
+
+            "paths": [
+                {
+                    "points": [
+                        [111.9, -399.7],
+                        [-335.3, -531.4],
+                        [-378.2, -608.5],
+                        [-383.2, -829.3],
+                        [-703.9, -834.4],
+                        [-796.7, -923.1],
+                        [-782.6, -1139],
+                        [-447.8, -1286.2],
+                        [86.7, -1227.7]
+                    ]
+                }
+            ],
+
+            "density": 1.3,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "TRIANGLE", "weight": 0.6, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.2, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true},
+                {"type": "SQUARE", "weight": 0.6, "maximum": -1, "activeDay": -1}
+            ]
+        },
+
+        {
+            "note": "Carindale-Sunnybank",
+
+            "paths": [
+                {
+                    "points": [
+                        [139.8, -418.6],
+                        [114.1, -1277.2],
+                        [-473.5, -1325.7],
+                        [-798.7, -1194.5],
+                        [-1012.6, -1257.3],
+                        [-1149.5, -1100.4],
+                        [-1329.2, -1120.3],
+                        [-1346.4, -1277.2],
+                        [-1600.2, -1374.2],
+                        [-1566, -2053.1],
+                        [1377.7, -1847.7],
+                        [1400.5, -1214.5],
+                        [1979.6, -1043.3],
+                        [1698.2, -384.4],
+                        [718.8, -438.6]
+                    ]
+                }
+            ],
+
+            "density": 1.0,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "TRIANGLE", "weight": 0.4, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.1, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true}
+            ]
+        },
+
+        {
+            "note": "West Chermside",
+
+            "paths": [
+                {
+                    "points": [
+                        [-723.6, 1909.8],
+                        [-753, 929.1],
+                        [-986.9, 703.8],
+                        [-1192, 248.7],
+                        [-1952.4, 629.9],
+                        [-1970.6, 1269.3],
+                        [-1323.1, 1912.7]
+                    ]
+                }
+            ],
+
+            "density": 1.0,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "SQUARE", "weight": 0.4, "maximum": -1, "activeDay": -1}
+            ]
+        },
+
+        {
+            "note": "Brisbane Airport",
+            
+            "paths": [
+                {
+                    "points": [
+                        [48.5, 1642.2],
+                        [349.4, 1923.2],
+                        [897.1, 1817.7],
+                        [985.5, 1680.7],
+                        [771.6, 1332.7],
+                        [904.2, 1264.3],
+                        [864.3, 1071.7],
+                        [604.4, 896.3],
+                        [549.1, 693.8],
+                        [296.7, 584],
+                        [-65.6, 586.8]
+                    ]
+                }
+            ],
+
+            "density": 1.2,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "SQUARE", "weight": 0.4, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.2, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true}
+            ]
+        },
+
+        {
+            "note": "Chermside",
+            "paths": [
+                {
+                    "points": [
+                        [-701.9, 1920.8],
+                        [14.1, 1719.1],
+                        [-80.7, 841.7],
+                        [-732.2, 932.5]
+                    ]
+                }
+            ],
+
+            "density": 1.4,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1},
+                {"type": "SQUARE", "weight": 0.5, "maximum": -1, "activeDay": -1},
+                {"type": "SPECIAL", "weight": 0.1, "maximum": -1, "activeDay": -1, "countSpecialsTogether": true},
+                {"type": "TRIANGLE", "weight": 0.2, "maximum": -1, "activeDay": -1}
+            ]
+        },
+
+        {
+            "note": "Toowong",
+            "paths": [
+                {
+                    "points": [
+                        [-1175.1, 193.4],
+                        [-1527.5, -929.7],
+                        [-1135.3, -906.8],
+                        [-1133.8, -697.2],
+                        [-944.2, -504.6],
+                        [-704.6, -615.9],
+                        [-697.4, -410.5],
+                        [-827.2, -259.3],
+                        [-780.1, -113.9]
+                    ]
+                }
+            ],
+
+            "density": 1.2,
+            "stationSpawns": [
+                {"type": "CIRCLE", "weight": 1.0, "maximum": -1, "activeDay": -1}
+            ]
+        }
+
+    ],
+
+    "stationSpawns": {
+        "schedule": [
+            {
+                "numDays": 18,
+                "randomness": 0.8,
+                "types": [
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "TRIANGLE",
+                    "TRIANGLE",
+                    "TRIANGLE",
+                    "SQUARE",
+                    "SQUARE",
+                    "SQUARE",
+                    "SPECIAL"
+                ]
+            },
+
+            {
+                "numDays": 16,
+                "randomness": 0.5,
+                "types": [
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "TRIANGLE",
+                    "TRIANGLE",
+                    "TRIANGLE",
+                    "SQUARE",
+                    "SQUARE"
+                ]
+            },
+
+            {
+                "numDays": 15,
+                "randomness": 0.75,
+                "types": [
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "CIRCLE",
+                    "TRIANGLE",
+                    "TRIANGLE",
+                    "SQUARE",
+                    "SQUARE",
+                    "SQUARE",
+                    "SPECIAL"
+                ]
+            }
+        ],
+
+        "cooldown": 0,
+
+        "special": [
+            "PENTAGON", 
+            "EGG",
+            "GEM",
+            "DIAMOND",
+            "STAR", 
+            "CROSS",
+            "WEDGE"
+        ]
+
+    },
+
+    "passengerSpawnScale": 0.84,
+    "stationCapacity": 6,
+    "interchangeCapacity": 24,
+
+    "upgrades": {
+        "initial": [
+            "Line",
+            "Line",
+            "Line",
+            "Locomotive",
+            "Locomotive",
+            "Locomotive",
+            "Carriage",
+            "Crossing",
+            "Crossing",
+            "Crossing",
+            "Interchange",
+            "Interchange"
+        ],
+
+        "unlocks": [
+            [
+                {"type": "Locomotive", "max": -1, "count": 1, "weight": 1, "week": 0}
+            ],
+
+            [
+                {"type": "Line", "max": 5, "count": 1, "weight": 1, "week": 0},
+                {"type": "Carriage", "max": -1, "count": 1, "weight": 1, "week": 0},
+                {"type": "Crossing", "max": -1, "count": 2, "weight": 1, "week": 0, "maxWeek": 3},
+                {"type": "Crossing", "max": -1, "count": 1, "weight": 1, "week": 5, "maxWeek": -1}
+            ]
+        ],
+
+        "numOptions": [1, 3]
+    },
+
+    "assetNames": [
+        {
+            "asset": "Locomotive",
+            "title": "Train"
+        }
+    ],
+
+    "trainDefinition": "Citytrain",
+
+    "stations": [
+        {
+            "tag": "starting_circle",
+            "type": "circle"
+        },
+
+        {
+            "tag": "starting_triangle",
+            "type": "triangle"
+        },
+
+        {
+            "tag": "starting_square",
+            "type": "square"
+        },
+
+        {
+            "tag": "starting_special",
+            "type": "cross"
+        }
+    ],
+
+    "lines": [
+        {
+            "name": "line1",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line2",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line3",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line4",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line5",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line6",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line7",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        },
+
+        {
+            "name": "line8",
+            "maxTrains": 5,
+            "allowedTrains": ["Locomotive", "Carriage", "Crossing"]
+        }
+    ],
+
+
+    "transitions": [
+        {
+            "points": [
+                [-10000, -3000],
+                [-2000, -700],
+                [0, -0]
+            ],
+            "id": "menu-game"
+        },
+
+        {
+            "points": [
+                [-10000, -3000],
+                [0, -0]
+            ],
+            "id": "menu-pause"
+        }
+    ],
+
+    "preview": {
+        "window": {
+            "position": [-900, -500],
+            "size": 900
+        }
+    }
+
+
+}
